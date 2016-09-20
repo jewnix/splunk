@@ -1,0 +1,114 @@
+Plaza,Description,Agency
+PVK,Pascack Valley,Garden State Parkway
+PRS,Paramus South,Garden State Parkway
+PRN,Paramus North ,Garden State Parkway
+BER,Bergen,Garden State Parkway
+SAB,Saddle Brook,Garden State Parkway
+CLS,Clifton South,Garden State Parkway
+CLN,Clifton North,Garden State Parkway
+PSS,Passaic South,Garden State Parkway
+PSN,Passaic North,Garden State Parkway
+WAS,Watchung South,Garden State Parkway
+WAN,Watchung North,Garden State Parkway
+ESS,Essex,Garden State Parkway
+BLS,Bloomfield South,Garden State Parkway
+BLN,Bloomfield North,Garden State Parkway
+EOR,East Orange,Garden State Parkway
+IRS,Irvington South,Garden State Parkway
+IRN,Irvington North,Garden State Parkway
+UNR,Union Ramp,Garden State Parkway
+UNI,Union,Garden State Parkway
+RAS,Raritan South,Garden State Parkway
+RAN,Raritan North,Garden State Parkway
+MAT,Matawan,Garden State Parkway
+KEY,Keyport,Garden State Parkway
+HOS,Holmdel South,Garden State Parkway
+HON,Holmdel North,Garden State Parkway
+RBS,Red Bank South,Garden State Parkway
+RBN,Red Bank North,Garden State Parkway
+EAT,Eatontown,Garden State Parkway
+ASP,Asbury Park,Garden State Parkway
+BES,Belmar South,Garden State Parkway
+BEN,Belmar North,Garden State Parkway
+BRS,Brick South,Garden State Parkway
+BRN,Brick North,Garden State Parkway
+LHS,Lakehurst South,Garden State Parkway
+LHN,Lakehurst North,Garden State Parkway
+LWS,Lakewood South,Garden State Parkway
+LWN,Lakewood North,Garden State Parkway
+TRV,Toms River ,Garden State Parkway
+LRS,Lacey Rd South,Garden State Parkway
+LRN,Lacey Rd North,Garden State Parkway
+BAR,Barnegat,Garden State Parkway
+BKS,Berkeley Ramp South,Garden State Parkway
+BKN,Berkeley Ramp North,Garden State Parkway
+NGR,New Gretna,Garden State Parkway
+WRS,Waretown South,Garden State Parkway
+WRN,Waretown North,Garden State Parkway
+SPT,Somers Point,Garden State Parkway
+GEG,Great Egg,Garden State Parkway
+CMY,Cape May,Garden State Parkway
+WWS,Wildwood South,Garden State Parkway
+WWN,Wildwood North,Garden State Parkway
+1,Delaware Memorial Bridge,New Jersey Turnpike
+2,Swedesboro/Chester,New Jersey Turnpike
+3,Woodbury/S. Camden/NJ Aquarium,New Jersey Turnpike
+4,Camden/Philadelphia/NJ Aquarium,New Jersey Turnpike
+5,Burlington/Mt. Holly,New Jersey Turnpike
+6,PA Turnpike/Florence,New Jersey Turnpike
+6A,PA Turnpike/Florence,New Jersey Turnpike
+6B,Rte. 130 Credit Ramp,New Jersey Turnpike
+7,Bordentown/Trenton,New Jersey Turnpike
+7A,I-195/Trenton/Shore Points,New Jersey Turnpike
+8,Hightstown/Freehold,New Jersey Turnpike
+8A,Jamesburg/Cranbury,New Jersey Turnpike
+9,New Brunswick/Admin Bldg,New Jersey Turnpike
+10,I-287/Metuchen/Edison Twsp,New Jersey Turnpike
+11,Garden State Parkway/Woodbridge/The Amboys,New Jersey Turnpike
+12,Carteret/Rahway,New Jersey Turnpike
+13,I-278/Eliz/Goethals/Verrazano,New Jersey Turnpike
+13A,Newark Aprt/Elizabeth Seaport,New Jersey Turnpike
+14,I-78/Newark Airport,New Jersey Turnpike
+14A,Bayonne,New Jersey Turnpike
+14B,Jersey City/Liberty State Park,New Jersey Turnpike
+14C,Holland Tunnel,New Jersey Turnpike
+15E,Newark/Jersey City,New Jersey Turnpike
+15W,I-280/Newark/The Oranges,New Jersey Turnpike
+15X,Secaucus Transfer Station,New Jersey Turnpike
+16E,Lincoln Tunnel/NJ 3/Secaucus,New Jersey Turnpike
+16W,Sprtsplx/NJ 3/Secaucus/Ruthrfrd,New Jersey Turnpike
+17,Secaucus/US 46,New Jersey Turnpike
+17,Secaucus/US 46,New Jersey Turnpike
+18E,Lincoln Tunnel/NJ 3/Secaucus,New Jersey Turnpike
+18W,Geo Washington Br/US 46/I-80,New Jersey Turnpike
+APL,Pleasantville Mainline Barrier,Atlantic City Expressway
+AR9,Route 9,Atlantic City Expressway
+APO,Pomona,Atlantic City Expressway
+ACY,AC Airport,Atlantic City Expressway
+AML,Mays Landing,Atlantic City Expressway
+A50,Route 50,Atlantic City Expressway
+AEH,Egg Harbor Mainline Barrier,Atlantic City Expressway
+AH,Hammonton Ramp,Atlantic City Expressway
+AWN,Winslow Ramp,Atlantic City Expressway
+AWL,Williamstown Ramp,Atlantic City Expressway
+ACK,Cross Keys,Atlantic City Expressway
+BRB,Betsy Ross Br,Delaware River Port Authority
+BFB,Ben Franklin Br,Delaware River Port Authority
+WWB,Walt Whitman Br,Delaware River Port Authority
+CBB,Commodore Barry Br,Delaware River Port Authority
+TPB,Tacony Palmyra Br,Delaware River Port Authority
+BBB,Burlington Bristol Br,Delaware River Port Authority
+DMB,Delaware Memorial Br,Delaware River and Bay Authority
+TPB,Tacony Palmyra Br,Burlington Bridge Commission
+BBB,Burlington Bristol Br,Burlington Bridge Commission
+T-M,Trenton-Morrisville Br,Delaware River Joint Toll Bridge Commission
+NHL,New Hope-Lambertville Br,Delaware River Joint Toll Bridge Commission
+I78,I-78 Br,Delaware River Joint Toll Bridge Commission
+E-P,Easton-Phillipsburg Br,Delaware River Joint Toll Bridge Commission
+P-C,Portland-Columbia Br,Delaware River Joint Toll Bridge Commission
+DWG,Delaware Water Gap Br,Delaware River Joint Toll Bridge Commission
+M-M,Milford-Montague Br,Delaware River Joint Toll Bridge Commission
+O78,Interstate 78-ORT,Delaware River Joint Toll Bridge Commission
+ODW,Delaware Water Gap-ORT,Delaware River Joint Toll Bridge Commission
+# Manual entry for Pennsylvania Tpk
+PTC,Pennsylvania Tpk,Pennsylvania Turnpike
