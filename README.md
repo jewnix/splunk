@@ -20,6 +20,7 @@ I set up Splunk to start on boot with systemd, by creating a splunk.system file 
 
 To disable THP live, you can run:
 > echo never > /sys/kernel/mm/transparent_hugepage/enabled
+ 
 > echo never > /sys/kernel/mm/transparent_hugepage/defrag
 
 To if THP is disabled. see if the output of the following command produces zero values, or if you configured it live, those numbers do not increase.
