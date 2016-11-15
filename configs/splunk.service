@@ -13,6 +13,8 @@ StandardOutput=syslog
 LimitNOFILE=65535
 LimitNPROC=16384
 TimeoutSec=0
+PIDFile=/opt/splunkforwarder/var/run/splunk/splunkd.pid
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
