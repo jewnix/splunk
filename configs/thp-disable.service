@@ -4,5 +4,5 @@ DefaultDependencies=no
 Before=splunk.service
 
 [Service]
-ExecStart=/usr/local/bin/disable_defrag.sh
+ExecStart=/usr/local/bin/disable_thp.sh
 Type=oneshot
