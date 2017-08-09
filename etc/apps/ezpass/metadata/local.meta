@@ -1,16 +1,4 @@
 ### PROPS
-
-[props]
+[]
+access = read : [ * ], write : [ admin, power ]
 export = system
-
-### TRANSFORMS
-
-[transforms]
-export = system
-
-
-### TAGS
-
-[tags]
-export = system
-
