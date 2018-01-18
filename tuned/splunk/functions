@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# Source main tuned functiones
+
+. /usr/lib/tuned/functions
+
+# Set debug directory
+DEBUG=/sys/kernel/debug/x86
+
+# Check if files are present in $DEBUG directory, and set the value.
+# If the files are not present, the system was not patched.
+
+if [[ -r "${DEBUG}/pti_enabled" && -r "${DEBUG}/ibpb_enabled" && -r "${DEBUG}/ibrs_enabled" ]]; then
+  PRESENT=true; else
+  exit 1
+fi
+
+if grep --quiet "GenuineIntel" /proc/cpuinfo; then
+  IS_INTEL=true
+fi
+
+# Set file location
+PTI="${DEBUG}/pti_enabled"
+IBPB="${DEBUG}/ibpb_enabled"
+IBRS="${DEBUG}/ibrs_enabled"
+
+if [[ "${PRESENT}" == true ]]; then
+  PTI_STAT=$( <"${PTI}" )
+  IBPB_STAT=$( <"${IBPB}" )
+  IBRS_STAT=$( <"${IBRS}" ); else
+  exit 1
+fi
+
+status () {
+  echo "PTI_STAT is "$PTI_STAT""
+  echo "IBPB_STAT is "$IBPB_STAT""
+  echo "IBRS_STAT is "$IBRS_STAT""
+}
+
+remediate () {
+  if (( PTI_STAT == "0" && IBPB_STAT == "0" && IBRS_STAT == "0" )); then 
+    exit 0; else
+      echo "0" > "${PTI}"
+      echo "0" > "${IBPB}"
+      echo "0" > "${IBRS}"
+  fi
+
+}
+
+unremediate () {
+  if (( PTI_STAT == "0" && IBPB_STAT == "0" && IBRS_STAT == "0" )); then 
+    echo "1" > "${PTI}"
+    echo "1" > "${IBPB}"
+    echo "1" > "${IBRS}"; else
+    exit 0;
+  fi
+}
