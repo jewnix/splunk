@@ -15,7 +15,7 @@ To have it completely disabled, a startup script needs to be run. So I combined 
 #### Disabling THP
 Copy the **configs/disable_defrag.sh** to **/usr/local/bin**, and make it executable.
 
-Copy **configs/thp-defrag.service** to **/etc/systemd/system/thp-defrag.service**.
+Copy **configs/thp-disable.service** to **/etc/systemd/system/thp-disable.service**.
 I set up Splunk to start on boot with systemd, by creating a splunk.system file in **/etc/systemd/system/splunk.service**. That file includes the ulimit settings for splunk, and the THP settings.
 
 To disable THP live, you can run:
